@@ -8,7 +8,10 @@ Retrieve and extract data from HTML documents.
     >>> resp = extr.extract(html)
     >>> print resp
 """
-import urlparse
+try:
+    import urlparse
+except ImportError:
+    from urllib import parse as urlparse
 import importlib
 
 
