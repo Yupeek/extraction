@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='extraction',
-    version='0.2',
+    version='0.2.1',
     author='Will Larson',
     author_email='lethain@gmail.com',
     packages=['extraction', 'extraction.tests', 'extraction.examples'],
